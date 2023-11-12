@@ -4,8 +4,6 @@ body {
 		font-family: Tahoma, Arial, sans-serif;
 		color: #f7bedf;
 		margin: 0;
-		/*padding: 0;
-		width: 100%;*/
 		display: flex;
 		align-items: center;
 		min-height: 100vh;
@@ -115,8 +113,8 @@ h1 {
 	height: auto;
 }
 
-.team {
-	
+.center-text {
+	text-align: center;
 }
 
 .team-container {
@@ -198,26 +196,30 @@ h1 {
 .product-img {
     float: left;
     margin-right: 1em;
-	width: 40%;
-	height: auto;
+	/*width: 40%;
+	height: auto;*/
+	width:165px;
+	height:165px;
 }
 
 .product-item form {
     margin-top: 1em;
-	
-	
+	color: black;
 }
 
 .flex-row {
 	display: flex;
 	flex-flow: column wrap;
 	flex-direction: row;
+	padding-bottom: 4em;
+	align-items: left;
 }
 
 .flex-column {
 	display: flex;
-	flex-flow: column wrap;
+	/*flex-flow: column wrap;*/
 	flex-direction: column;
+	align-items: left;
 }
 
 input[type="submit"] {
