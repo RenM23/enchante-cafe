@@ -135,7 +135,7 @@ h1 {
 
 .about-circular-image {
     border-radius: 50%;
-    width: 70%;  
+    width: 200px;  
     height: auto; 
 }
 
@@ -154,6 +154,14 @@ h1 {
     }
 	 .careers-container {
         width: 95%;
+    }
+	  .contact-details {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about-circular-image {
+        margin: 0 auto; 
     }
 }
 
@@ -321,6 +329,18 @@ button:hover {
 
 .job-opening h2 {
     color: #8c3826;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+}
+
+.contact-details address {
+    margin-bottom: 20px;
 }
 
 footer { 
