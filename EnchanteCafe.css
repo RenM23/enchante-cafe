@@ -151,12 +151,18 @@ h1 {
 		flex: 50%;
 		max-width:50%;
 	}
+	 .gallery-item {
+        width: calc(50% - 10px); 
+    }
 }
 
 @media screen and (max-width: 600px) {
 	.flex-column {
 		flex: 100%;
 		max-width: 100%;
+	}
+	 .gallery-item {
+        width: calc(100% - 10px); 
 	}
 }
 
@@ -259,6 +265,32 @@ input[type="submit"]:hover {
     align-items: center; 
     padding: 50px;
 	text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: calc(25% - 10px); 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.gallery-item figcaption {
+    padding: 5px;
+    text-align: center;
+    background: #fff;
 }
 
 
