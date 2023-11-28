@@ -148,6 +148,12 @@ h1 {
 		display: flex;
 		flex-direction: row;
 	}
+	.overlay-text {
+	font-size: 2em;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);	
+	}
 	.flex-column {
 		flex: 50%;
 		max-width:50%;
@@ -169,6 +175,11 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
+	
+	.image-wrapper img.hero-image {
+    height: auto;
+	}
+	
 	.flex-column {
 		flex: 100%;
 		max-width: 100%;
