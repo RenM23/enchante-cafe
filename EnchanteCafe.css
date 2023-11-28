@@ -138,6 +138,9 @@ h1 {
     width: 200px;  
     height: auto; 
 }
+.align-circular-image {
+	float: center;
+}
 
 
 @media (max-width: 800px) {
@@ -263,6 +266,7 @@ input[type="submit"]:hover {
     align-items: center; 
     padding: 50px;
 	text-align: center;
+	padding-left: 120px;
 }
 .gallery {
     display: flex;
@@ -344,13 +348,14 @@ button:hover {
 }
 
 form {
-    max-width: 400px; 
+    max-width: 600px; 
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #ddd; 
     border-radius: 8px;
     background-color: #f9f9f9; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+	padding-right: 2em;
 }
 
 input[type="text"], input[type="email"] {
