@@ -138,9 +138,6 @@ h1 {
     width: 200px;  
     height: auto; 
 }
-.align-circular-image {
-	float: center;
-}
 
 
 @media (max-width: 800px) {
