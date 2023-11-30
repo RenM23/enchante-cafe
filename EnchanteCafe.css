@@ -80,6 +80,12 @@ h1 {
 .text-container {
 	color: black;
 	padding-right: 5em;
+	text-align: center;
+}
+.text-container-white {
+	color: white;
+	padding-right: 5em;
+	text-align: center;
 }
 
 .teacup1 {
@@ -192,6 +198,7 @@ h1 {
     width: 100%;
     margin: 20px 0;
     font-family: Arial, sans-serif;
+	margin-left:40px;
 
 }
 
@@ -312,10 +319,11 @@ input[type="submit"]:hover {
 
 .careers-container h1 {
     color: #f7bedf;
+	text-align: center;
 }
 
 .careers-container p {
-    line-height: 1.6;
+    text-align: center;
 }
 
 button {
@@ -325,11 +333,23 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     margin-bottom: 20px;
+	max-width: 10em;
+	
 }
 
 button:hover {
     background-color: #a04e40;
 }
+
+.button-align {
+	text-align: center;
+}
+
+.buttong-align button {
+	display: block;
+	margin: 0 auto;
+}
+
 
 .job-opening {
     background-color: #ffffff;
